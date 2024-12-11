@@ -29,7 +29,7 @@ const questions = [
 
 function randomWyrQuestion (){
     const randomIndex = Math.floor(Math.random() * questions.length);// picking a random btn 0 and 1 multiply
-    //by the number of question
+    //by the number of question which will get us a random number
     const randomQuestion = questions[randomIndex];
     return randomQuestion;
 }
